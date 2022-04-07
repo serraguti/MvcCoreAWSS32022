@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcCoreAWSS3", "MvcCoreAWSS3\MvcCoreAWSS3.csproj", "{DDF684F1-E7CB-4686-BBA9-803E831168CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDF684F1-E7CB-4686-BBA9-803E831168CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF684F1-E7CB-4686-BBA9-803E831168CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF684F1-E7CB-4686-BBA9-803E831168CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF684F1-E7CB-4686-BBA9-803E831168CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5B00875-00F3-4E02-A097-B7C3A448FAD7}
+	EndGlobalSection
+EndGlobal

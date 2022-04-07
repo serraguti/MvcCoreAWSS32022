@@ -1,0 +1,30 @@
+﻿@model List<string>
+
+<h1 style="color:red">
+    AWS Service S3
+</h1>
+
+<a asp-controller="AwsFiles"
+   asp-action="UploadFile"
+   class="btn btn-info">
+    Upload File
+</a>
+<hr/>
+@if (Model != null)
+{
+    <ul class="list-group">
+        @foreach (string fileName in Model)
+        {
+            <li class="list-group-item">
+                @fileName
+                <a asp-controller="AwsFiles"
+                   asp-action="FileAWS" class="btn btn-success"
+                   asp-route-filename="@fileName">Ver fichero</a>
+                <a asp-controller="AwsFiles" asp-action="Delete"
+                   asp-route-filename="@fileName" class="btn btn-danger">
+                    Eliminar
+                </a>
+            </li>
+        }
+    </ul>
+}
